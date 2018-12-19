@@ -23,7 +23,7 @@ Explain here how to use your module, how to configure it, etc.
 
 ## Hook
 
-Add template attributes selection on the product.before-combinations hook
-Add Ajax search on the product.edit-js hook
+* Add template attributes selection on the product.before-combinations hook
+* Add Ajax search on the product.edit-js hook
 
 www.pixel-plurimedia.fr
