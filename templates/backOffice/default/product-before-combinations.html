@@ -1,1 +1,19 @@
-
+{ifloop rel="template-attributes"}
+<div id="search-pse" class="well well-sm" data-url="{url path='/admin/product/combinations/search-pse'}" data-product="{$product_id}">
+    <h3>{intl l="Filter PSE by attributes combinations"}</h3>
+    <div class="row">
+        {loop name="template-attributes" type="attribute" product=$product_id template=$template_id}
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="attr_av_{$ID}" class="control-label">{$TITLE}</label>
+                <select id="attr_av_{$ID}" class="form-control" name="attr_av" data-attr="{$ID}" multiple>
+                    {loop name="pse-attribute-availability" type="attribute_availability" attribute=$ID product=$product_id}
+                    <option value="{$ID}">{$TITLE}</option>
+                    {/loop}
+                </select>
+            </div>
+        </div>
+        {/loop}
+    </div>
+</div>
+{/ifloop}
