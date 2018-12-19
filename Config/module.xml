@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://thelia.net/schema/dic/module"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://thelia.net/schema/dic/module http://thelia.net/schema/dic/module/module-2_2.xsd">
+    <fullnamespace>PxlPluriSearchPSE\PxlPluriSearchPSE</fullnamespace>
+    <descriptive locale="en_US">
+        <title>Search PSE by attributes combination</title>
+    </descriptive>
+    <descriptive locale="fr_FR">
+        <title>Recherche PSE par combinaison d'attributs</title>
+    </descriptive>
+    <!-- <logo></logo> -->
+    <!--<images-folder>images</images-folder>-->
+    <languages>
+        <language>en_US</language>
+        <language>fr_FR</language>
+    </languages>
+    <version></version>
+    <authors>
+        <author>
+            <name>Thierry Caresmel</name>
+            <email>thierry@pixel-plurimedia.fr</email>
+        </author>
+    </authors>
+    <type>classic</type>
+    <thelia>2.3.0</thelia>
+    <stability>other</stability>
+    <mandatory>0</mandatory>
+    <hidden>0</hidden>
+</module>

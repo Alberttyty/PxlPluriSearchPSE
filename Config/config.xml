@@ -1,1 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 
+<config xmlns="http://thelia.net/schema/dic/config"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://thelia.net/schema/dic/config http://thelia.net/schema/dic/config/thelia-1.0.xsd">
+
+    <hooks>
+        <hook id="pxlplurisearchpse.hook">
+            <tag name="hook.event_listener" event="product.before-combinations" type="back" templates="render:product-before-combinations.html" />
+            <tag name="hook.event_listener" event="product.edit-js" type="back" templates="js:assets/dist/js/product-edit.min.js" />
+        </hook>
+    </hooks>
+</config>
