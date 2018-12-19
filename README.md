@@ -19,7 +19,8 @@ composer require pixel-plurimedia/pxl-pluri-search-pse-module:~1.0
 
 ## Usage
 
-Explain here how to use your module, how to configure it, etc.
+You must edit the product-prices-tab.html file in the thelia-root/templates/backOffice/default/includes folder :
+* Just add "product_id=$product_id template_id=$TEMPLATE" to the hook named "product.before-combinations"
 
 ## Hook
 
