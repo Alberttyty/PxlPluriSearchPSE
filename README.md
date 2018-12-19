@@ -1,4 +1,4 @@
-# Pxl Pluri Seach PSE
+# Pxl Pluri Search PSE
 
 Filter PSE by attributes combinations in the price tab on the product edit admin page.
 
@@ -6,7 +6,7 @@ Filter PSE by attributes combinations in the price tab on the product edit admin
 
 ### Manually
 
-* Copy the module into ```<thelia_root>/local/modules/``` directory and be sure that the name of the module is PxlPluriSeachPSE.
+* Copy the module into ```<thelia_root>/local/modules/``` directory and be sure that the name of the module is PxlPluriSearchPSE.
 * Activate it in your thelia administration panel
 
 ### Composer
@@ -14,7 +14,7 @@ Filter PSE by attributes combinations in the price tab on the product edit admin
 Add it in your main thelia composer.json file
 
 ```
-composer require pixel-plurimedia/pxl-pluri-seach-pse-module:~1.0
+composer require pixel-plurimedia/pxl-pluri-search-pse-module:~1.0
 ```
 
 ## Usage
